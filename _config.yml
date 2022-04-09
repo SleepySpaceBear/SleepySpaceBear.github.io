@@ -1,0 +1,35 @@
+# Basic
+name:               "Sleepy Space Bear / Gabriel"
+description:        "a blog for a CS researcher"
+
+# URL
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+# Markdown
+markdown:           kramdown
+
+# Navigation
+nav:
+  - name:           "About"
+    remote:         false
+    localpath:      "about"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
