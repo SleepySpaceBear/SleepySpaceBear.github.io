@@ -35,4 +35,4 @@ The final equation for the size of the state space is:
 
 $$f(3*C,D) * H_p * H_m * E * B$$
 
-This state space is far too big to represent in a table for traditional Q-Learning. I need to figure out a way to reduce the number of entries in my tabular Q-learning table to actually make it possible. I can get rid of the discard pile from the state, fold similar states into each other, reduce the game even further (which I would like to avoid), and probably a hundred other things. My next post will likely detail solutions to this problem.  
+This state space is far too big to represent in a table for traditional Q-Learning. I need to figure out a way to reduce the number of entries in my table to actually make it possible. I can get rid of the discard pile from the state, fold similar states into each other, reduce the game even further (which I would like to avoid), and probably a hundred other things. My next post will likely detail solutions to this problem.  
