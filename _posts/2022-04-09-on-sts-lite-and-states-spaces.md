@@ -19,7 +19,7 @@ Here's my work:
 - $$E$$ - energy, or how many cards can be played in a turn (3)
 - $$B$$ - the maximum amount of block (15) 
 
-To calculate how many different ways a deck of $$D$$ cards with $$C$$ card types can be in 3 different, I came up with a formula. I realized that the question can be re-framed as how many different ways can $$N$$ integers $$\in [0, D]$$ add up to $$S$$, where $$N = 3C$$ and $$S = D$$. The formula below answers that question. 
+To calculate how many different ways a deck of $$D$$ cards with $$C$$ card types can be in 3 different, I came up with a formula. I realized that the question can be re-framed as how many different ways can $$N$$ integers $$\in [0, S]$$ add up to $$S$$, where $$N = 3C$$ and $$S = D$$. The formula below answers that question. 
 
 $$
 f(N,S) = 
