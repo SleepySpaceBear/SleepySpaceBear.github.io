@@ -56,7 +56,7 @@ I'm going to revisit block now that energy is the only thing left to worry about
 of energy are actually related. If we have $$3$$ energy, we haven't played any cards, so we have $$0$$ block. If we 
 have $$2$$ energy, we have $$0$$, $$3$$, or $$5$$ block. If we have $$1$$ energy, we've played two cards and 
 have $$0$$, $$3$$, $$5$$, $$6$$, or $$10$$ block. By combining energy and block like this, we have $$9$$ potential
-configurations to consider and not $$18$$, which a naive examination would consider. We'll represent this value with
+configurations to consider and not $$27$$, which is $$B \cdot E$$, or $$9 \cdot 3$$. We'll represent this value with
 $$B_E = 9$$, since it's primarily block states $$B$$, but we're considering energy $$E$$, too. 
 
 So our final state space size is:
