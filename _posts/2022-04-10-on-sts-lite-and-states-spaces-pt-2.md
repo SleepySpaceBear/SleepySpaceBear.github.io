@@ -43,7 +43,7 @@ How many values for the health of the monster can we reach? Well, the monster's 
 I said so. It also happens to work out very well for this. Strike deals $$6$$ damage and Leap deals $$3$$ damage to 
 the monster. Since $$6$$ happens to be a multiple of $$3$$, for this math we can just consider the damage done by Leap.
 If we use Leap once, the monster will be at $$27$$ health, so with $$30$$, that makes two values. Well, we can speed 
-this up. $$30$$ is $$30 \cdot 10$$. There are $$10$$ states of monster health. Why am I excluding $$0$$? The learners
+this up. $$30$$ is $$3 \cdot 10$$. There are $$10$$ states of monster health. Why am I excluding $$0$$? The learners
 will never see a monster with $$0$$ health. Once a monster dies, a new one immediately takes it place. For our final
 equation, $$H_m = 10$$. 
 
